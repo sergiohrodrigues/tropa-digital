@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;600;700&display=swap');
+
+.conteudo{
+    width: 80%;
+    background-color: #F3F3F3;
+    padding: 2rem 3rem;
+}
+
+.conteudo h2{
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #00000070;
+}
+
+.inicio{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card{
+    min-width: 300px;
+    width: 32%;
+    max-width: 500px;
+    background-color: #FFFFFF;
+    text-align: center;
+    position: relative;
+}
+
+.card img{
+    width: 90%;
+    max-width: 463px;
+    height: 141px;
+    padding-top: 0.5rem;
+}
+
+.card span {
+    font-family: 'Advent Pro', sans-serif;
+    min-width: 90px;
+    width: 35%;
+    background-color: #00000080;
+    display: flex;
+    align-items: center;
+    padding: 0.2rem 0.2rem;
+    border-radius: 5px;
+    
+    position: absolute;
+    top: 17px;
+    right: 25px;
+}
+
+.card span img{
+    width: 20%;
+    max-width: auto;
+    height: auto;
+    padding-top: 0;
+    margin-right: 15%;
+}
+
+.card h3{
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 1rem;
+    padding: 0 1rem;
+}
+
+.card p{
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    padding: 0.5rem 0 1rem 1.5rem;
+}
